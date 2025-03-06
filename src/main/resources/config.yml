@@ -1,0 +1,20 @@
+# AntiKomar by Niker
+# Znalazłeś błąd? zgłoś go na dc: n1k3___
+#
+# %name% - zmienna odpowiadający za wyświetlanie nazwy gracza podejrzanego o komara. %reportsId% - Ilość reportów od antycheata
+
+#Ilosc reportow przed banem (deafultowo 8)
+reports: "8"
+
+# Wiadomosci dla adm
+
+messages: "§7Gracz §f%name% §7może używać komara §f§lx%reportsId%"
+
+# Komenda do wykonania bana
+
+BanCommand: "ban %name% cheaty - komar (Podejrzenie) 30min"
+
+# Czas (w milisekundach) od których plugin sprawdza kiedy gracz użył firework i uderzył gracza
+
+# Zalecane "175" ms
+elytraCheckThreshold: "250"

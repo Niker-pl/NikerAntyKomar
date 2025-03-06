@@ -1,0 +1,7 @@
+name: NikerAntyKomar
+version: '${project.version}'
+main: dev.nikee.nikerantykomar.NikerAntyKomar
+api-version: '1.18'
+description: AntyCheat przeznaczony na komara
+website: https://github.com/Niker-pl/NikerAntyKomar
+author: Niker
